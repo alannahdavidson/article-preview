@@ -1,0 +1,30 @@
+$socialsBg: hsl(217, 19%, 35%);
+$arrowBg: hsl(214, 17%, 51%);
+$articleContour: hsl(212, 23%, 69%);
+$bodyBg: hsl(210, 46%, 95%);
+$articleBg: white;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    background-color: $bodyBg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: $articleBg;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 1em 1em 0 0;
+}
