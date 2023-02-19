@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
 $socialsBg: hsl(217, 19%, 35%);
 $arrowBg: hsl(214, 17%, 51%);
 $articleContour: hsl(212, 23%, 69%);
@@ -17,14 +19,32 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Manrope', sans-serif;
 }
 
+.br-top-left-right {
+    border-radius: 1em 1em 0 0;
+}
+
 .container {
     align-items: center;
     display: flex;
     flex-direction: column;
     background-color: $articleBg;
+    margin: 5em 2em 0 2em;
+    // z-index: 10;
+    // position: relative;  
 }
 
-img {
+#drawers {
     object-fit: cover;
-    border-radius: 1em 1em 0 0;
+    width: 100%;
+    // z-index: 0;
+    // position: relative;
+}
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
 }
